@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background: lightskyblue;
+    background: #3167de;
     padding: 20px 100px;
     display: flex;
     justify-content: flex-end;
@@ -30,11 +30,27 @@ nav, .hero-banner,.hero-text, .info, .info-container, .info-header {
 }
 
 .hero-banner, .info-container {
-    background: blue;
+    background: #0d47c1;
 }
 
 .info {
-    background: teal;
+    background: #7890c5;
+    padding: 20px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-container {
+    display: block;
+    margin: 20px;
+    padding: 20px 20px;
+    width: 1000px;
+}
+
+.info-header {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #home {
