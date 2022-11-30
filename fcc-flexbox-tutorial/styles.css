@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 1000px;
+    gap: 25px;
+
+    flex-direction: row;
+    place-content: center flex-end;
+}
+
+.box1, .box2, .box3 {
+    width: 140px;
+    height: 140px;
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    flex-grow: 1;
+}
+
+.box2 {
+    flex-grow: 5;
+}
+
+.box3 {
+    flex-grow: 1;
+}
